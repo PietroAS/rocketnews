@@ -1,0 +1,121 @@
+/* RESET--- */
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --subtitle-color: #ffff;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+  --normal-font-size: 1.4rem;
+}
+
+/* 
+font-family: 'League Spartan', sans-serif;
+font-family: 'Work Sans', sans-serif; 
+*/
+
+/* GERAL--- */
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0px 3rem;
+  background-color: var(--body-bg-color);
+}
+
+#background-img {
+  position: absolute;
+  z-index: -1;
+  left: 25%;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  padding-left: 34.4rem;
+
+  background-image: url(./assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+}
+
+main {
+  margin-left: 0.6rem;
+}
+
+/* LOGO--- */
+body header img {
+  width: 38.9rem;
+  margin: 5rem auto 9.2rem;
+}
+
+/* TITULO--- */
+main h1 {
+  color: var(--title-color);
+  font: normal 700 2.4rem "Work Sans", sans-serif;
+}
+
+/* APRESENTAÇÃO DA PAGINA--- */
+#subtitulo {
+  color: var(--subtitle-color);
+  font: 700 var(--normal-font-size) "League Spartan", sans-serif;
+}
+
+#txt {
+  color: #fff;
+  width: 64.7rem;
+  font: 400 var(--normal-font-size) / 1.9rem "League Spartan", sans-serif;
+}
+
+/* FORMULARIO--- */
+form {
+  margin-top: 5rem;
+}
+
+#formulario {
+  display: flex;
+  align-items: center;
+  margin-top: 1.7rem;
+}
+
+form label {
+  color: #a8a8a8;
+  font: 700 var(--normal-font-size) / 1.4rem "League Spartan", sans-serif;
+}
+
+form input {
+  width: 75rem;
+  height: 4.8rem;
+  border: none;
+  padding: 0px;
+  border-left: solid 5px var(--title-color);
+}
+
+#formulario input::placeholder {
+  padding-left: 1rem;
+}
+
+form button {
+  width: 4.8rem;
+  height: 4.8rem;
+  border: none;
+  background-color: var(--bg-button-color);
+}
+
+#exemplar {
+  margin-top: 5.2rem;
+  font: 700 var(--normal-font-size) / 2rem "League Spartan", sans-serif;
+}
+
+#exemplar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--Purple, #8257e5);
+}
+#exemplar img {
+  margin-left: 0.5rem;
+}
